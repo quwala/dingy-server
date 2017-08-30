@@ -1,0 +1,9 @@
+Ctrl + N - search for class
+
+Alt + F7 - find all usages of a method/class/variable
+
+Ctrl + B - go to decleration (of a class/method/variable)
+
+Ctrl + F12 - list of members in current class
+
+double shift - search everywhere

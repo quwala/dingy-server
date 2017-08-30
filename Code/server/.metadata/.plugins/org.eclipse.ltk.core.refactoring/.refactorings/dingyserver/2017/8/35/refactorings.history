@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;MyResource.java&apos; to &apos;dingyserver/src/main/java/com.dingy.dingyserver.resources&apos;&#x0D;&#x0A;- Original project: &apos;dingyserver&apos;&#x0D;&#x0A;- Destination element: &apos;dingyserver/src/main/java/com.dingy.dingyserver.resources&apos;&#x0D;&#x0A;- Original element: &apos;com.dingy.dingyserver.MyResource.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src\/main\/java&lt;com.dingy.dingyserver.resources" element1="/src\/main\/java&lt;com.dingy.dingyserver{MyResource.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1504113902972" units="1" version="1.0"/>
+</session>
