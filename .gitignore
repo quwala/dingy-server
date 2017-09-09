@@ -11,7 +11,7 @@
 .mtj.tmp/
 
 # Package Files #
-*.jar
+# *.jar we do want to share our jars.. i think 
 *.war
 *.ear
 *.zip
@@ -50,3 +50,6 @@ Documentation/~WRL2147.tmp
 Documentation/~$stallation.docx
 Code/client/Dingy/gradle/wrapper/gradle-wrapper.properties
 Code/server/Servers/
+Code/client/Dingy/app/src/main/cpp/native-lib.cpp
+Code/client/Dingy/gradle/wrapper/gradle-wrapper.jar
+*.classpath
