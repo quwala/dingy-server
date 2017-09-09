@@ -7,6 +7,9 @@ import android.widget.Button;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.EditText;
+
+import retrofit2.Retrofit;
+
 public class MainActivity extends AppCompatActivity {
 
     private EditText test_tf;
@@ -15,7 +18,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         test_tf = (EditText) findViewById(R.id.test_tf);
 
         Button test_btn = (Button) findViewById(R.id.test_btn);
@@ -28,6 +30,9 @@ public class MainActivity extends AppCompatActivity {
                 new RestClient().execute(test_tf.getText().toString());
             }
         });
+
+        Retrofit.Builder builder = new Retrofit.Builder();
+        Retrofit retrofit = builder.build();
     }
 
     /**
