@@ -1,0 +1,6 @@
+Roi:
+
+do the Udemy android development course
+learn how to work with Retrofit in client
+learn how to work with Hibernate in server
+learn how to do Google User Management things
