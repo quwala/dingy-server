@@ -2,5 +2,6 @@
     <string name="app_name">Dingy</string>
     <string name="server_client_id">697463702140-bs2aa10sn9uc6qkp9f5se8l2kfacr5vk.apps.googleusercontent.com</string>
     <string name="signed_in_fmt"> For %s, maybe? </string>
+    <string name="signed_out"> Not Logged in </string>
 
 </resources>

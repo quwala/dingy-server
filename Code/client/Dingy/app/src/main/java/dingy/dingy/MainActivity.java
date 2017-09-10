@@ -22,6 +22,8 @@ import com.google.android.gms.common.SignInButton;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.common.SignInButton;
 
+import org.w3c.dom.Text;
+
 import retrofit2.Retrofit;
 
 public class MainActivity extends AppCompatActivity implements GoogleApiClient.OnConnectionFailedListener {
@@ -75,8 +77,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
 
 
 
-
-
+        mStatusTextView = (TextView) findViewById(R.id.status);
 
         test_tf = (EditText) findViewById(R.id.test_tf);
 
@@ -91,8 +92,8 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
             }
         });
 
-        Retrofit.Builder builder = new Retrofit.Builder();
-        Retrofit retrofit = builder.build();
+//        Retrofit.Builder builder = new Retrofit.Builder();
+//        Retrofit retrofit = builder.build();
     }
 
 
@@ -123,7 +124,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
         if (result.isSuccess()) {
             // Signed in successfully, show authenticated UI.
             GoogleSignInAccount acct = result.getSignInAccount();
-            mStatusTextView.setText(getString(R.string.signed_in_fmt, acct.getDisplayName()));
+            mStatusTextView.setText(getString(R.string.signed_in_fmt,acct.getDisplayName()));
             updateUI(true);
         } else {
             // Signed out, show unauthenticated UI.
