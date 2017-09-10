@@ -1,6 +1,11 @@
 Roi:
 
-do the Udemy android development course
-learn how to work with Retrofit in client
-learn how to work with Hibernate in server
-learn how to do Google User Management things
+do the Udemy android development course-----------------HADN'T STARTED
+learn how to work with Retrofit in client-----------------HADN'T STARTED
+learn how to work with Hibernate in server-----------------PAUSED
+learn how to do work with Google Sign-In-------------------IN PROGRESS
+
+
+Roi + Omri:
+work some more on the Overview.doc thing so we are on the same page
+make the data-models

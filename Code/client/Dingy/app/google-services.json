@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "697463702140",
+    "project_id": "firebase-dingy"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:697463702140:android:7dbf87d3b65b70cc",
+        "android_client_info": {
+          "package_name": "dingy.dingy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "697463702140-bs2aa10sn9uc6qkp9f5se8l2kfacr5vk.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "697463702140-8b88krc4pbmb65n1ba05r2v6tgpcchc5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dingy.dingy",
+            "certificate_hash": "af5c2a58deff83f2884c1179baebb65fa4ec10bf"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuTK2LVgEoHrO_mL20hluTzWBIzXovcO4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
