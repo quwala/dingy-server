@@ -2,8 +2,10 @@ Roi:
 
 do the Udemy android development course-----------------HADN'T STARTED
 learn how to work with Retrofit in client-----------------HADN'T STARTED
-learn how to work with Hibernate in server-----------------PAUSED
-learn how to do work with Google Sign-In-------------------IN PROGRESS
+learn how to work with Hibernate in server-----------------IN PROGRESS
+finish Google Sign-In flow-------------------IN PROGRESS
+work on enabling GCM for notifications-------------------------IN PROGRESS
+
 
 
 Roi + Omri:
