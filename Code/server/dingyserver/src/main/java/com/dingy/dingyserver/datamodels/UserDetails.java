@@ -3,14 +3,18 @@ package com.dingy.dingyserver.datamodels;
 import java.util.Date;
 
 import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
 
 
 @Entity
-public class User {
+public class UserDetails {
 	
+	@Id
 	private String id;//this is the unique identifier of every user, their Google Account ID.
 	private Date created;
+	
 //	private List<Group> groups;
 	
 	

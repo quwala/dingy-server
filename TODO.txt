@@ -1,13 +1,14 @@
 Roi:
 
+learn how to work with Hibernate in server-----------------IN PROGRESS
 do the Udemy android development course-----------------HADN'T STARTED
 learn how to work with Retrofit in client-----------------HADN'T STARTED
-learn how to work with Hibernate in server-----------------IN PROGRESS
-finish Google Sign-In flow-------------------IN PROGRESS
-work on enabling GCM for notifications-------------------------IN PROGRESS
+finish Google Sign-In flow-------------------PAUSE
+work on enabling GCM for notifications-------------------------PAUSE
 
 
 
-Roi + Omri:
-work some more on the Overview.doc thing so we are on the same page
-make the data-models
+Everyone:
+-work some more on the Overview.doc thing so we are on the same page
+
+-make the data-models

@@ -54,3 +54,4 @@ Code/client/Dingy/app/src/main/cpp/native-lib.cpp
 Code/client/Dingy/gradle/wrapper/gradle-wrapper.jar
 *.classpath
 Code/server/dingyserver/.settings/org.eclipse.wst.common.component
+Code/server/.recommenders/
