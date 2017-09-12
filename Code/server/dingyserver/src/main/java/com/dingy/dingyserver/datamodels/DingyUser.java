@@ -9,10 +9,12 @@ import javax.persistence.Table;
 
 
 @Entity
-public class UserDetails {
+@Table(name="DINGY_USERS")
+public class DingyUser {
 	
 	@Id
 	private String id;//this is the unique identifier of every user, their Google Account ID.
+	
 	private Date created;
 	
 //	private List<Group> groups;
