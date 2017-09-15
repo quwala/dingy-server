@@ -15,7 +15,7 @@ public class DingyUser {
 	@Id
 	private String id;//this is the unique identifier of every user, their Google Account ID.
 	
-	private Date created;
+	private Date date_created;
 	
 //	private List<Group> groups;
 	
@@ -27,10 +27,10 @@ public class DingyUser {
 		this.id = id;
 	}
 	public Date getCreated() {
-		return created;
+		return date_created;
 	}
 	public void setCreated(Date created) {
-		this.created = created;
+		this.date_created = created;
 	}
 	
 	

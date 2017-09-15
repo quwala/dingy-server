@@ -1,14 +1,18 @@
-Roi:
 
-learn how to work with Hibernate in server-----------------IN PROGRESS
+-***********learn Git*************
+
+
+-----Client-----
 do the Udemy android development course-----------------HADN'T STARTED
-learn how to work with Retrofit in client-----------------HADN'T STARTED
+	-learn Dagger 2 for dependency injection
+	-learn Room for persistence
+	-learn Retrofit for server communication
+
+
 finish Google Sign-In flow-------------------PAUSE
 work on enabling GCM for notifications-------------------------PAUSE
 
+------server-----
+learn how to work with Hibernate in server-----------------IN PROGRESS
 
 
-Everyone:
--work some more on the Overview.doc thing so we are on the same page
-
--make the data-models
