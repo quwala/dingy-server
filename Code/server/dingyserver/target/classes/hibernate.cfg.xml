@@ -28,8 +28,10 @@
     <property name="show_sql">true</property>
 
     <!-- Drop and re-create the database schema on startup -->
-    <property name="hbm2ddl.auto">update</property>
+    <property name="hbm2ddl.auto">create</property>
     
     <mapping class="com.dingy.dingyserver.datamodels.DingyUser"/>
+    <mapping class="com.dingy.dingyserver.datamodels.VotingPhase"/>
+    
   </session-factory>
 </hibernate-configuration>
