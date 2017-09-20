@@ -13,6 +13,6 @@ finish Google Sign-In flow-------------------PAUSE
 work on enabling GCM for notifications-------------------------PAUSE
 
 ------server-----
-learn how to work with Hibernate in server-----------------IN PROGRESS
+organize layers in server-----------------IN PROGRESS
 
 
