@@ -44,8 +44,8 @@ public class HibernateMapTests {
 	public void testVotingPolicyTableCreation(){
 		assertTrue(Startup.startup());
 
-		DingyUser user1 = new DingyUser("gfsag351asgfa");
-		DingyUser user2 = new DingyUser("giosapr32lrfpasuogd");
+		DingyUser user1 = new DingyUser("omri");
+		DingyUser user2 = new DingyUser("roi");
 
 		VotingPhase vp = new VotingPhase();
 		vp.addRating(user1, 1);
@@ -56,6 +56,7 @@ public class HibernateMapTests {
 		session.save(user1);
 		session.save(user2);
 		session.save(vp);
+		
 
 
 	}

@@ -5,10 +5,12 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
+import javax.persistence.Column;
 import javax.persistence.ElementCollection;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.MapKey;
 import javax.persistence.Table;
 
 import org.hibernate.annotations.GenericGenerator;
@@ -29,6 +31,7 @@ public class VotingPhase {
 //    @MapKeyColumn(name="USER_ID")
     
     @ElementCollection
+    @Column (name = "rating")
 	private Map<DingyUser,Integer> ratings;//the rating each user in the group gave to the task
     
     public String getId() {

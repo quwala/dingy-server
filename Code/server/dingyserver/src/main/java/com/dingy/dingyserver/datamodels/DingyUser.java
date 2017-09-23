@@ -19,11 +19,16 @@ public class DingyUser {
 	
 //	private List<Group> groups;
 	
+	public DingyUser(){
+		this.id = "hamorabi";
+		this.date_created = new Date();
+	}
+	
 	public DingyUser(String id)
 	{
 		this.id = id;
 		
-		date_created = new Date();//this sets the date at the current date and time (not an empty date object)
+		this.date_created = new Date();//this sets the date at the current date and time (not an empty date object)
 	}
 	
 	public String getId() {

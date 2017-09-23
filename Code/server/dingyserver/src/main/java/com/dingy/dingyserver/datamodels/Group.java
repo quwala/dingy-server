@@ -27,6 +27,6 @@ public class Group {
 	
 	private VotingPolicy voting_policy;//can every admin initiate a voting phase unilaterally or does he need a majority vote
 	
-
+	
 	
 }
