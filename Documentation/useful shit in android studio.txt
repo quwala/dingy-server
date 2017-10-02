@@ -7,3 +7,5 @@ Ctrl + B - go to decleration (of a class/method/variable)
 Ctrl + F12 - list of members in current class
 
 double shift - search everywhere
+
+ctrl+shift+backspace => go to last change in code u made

@@ -16,3 +16,35 @@ work on enabling GCM for notifications-------------------------PAUSE
 organize layers in server-----------------IN PROGRESS
 
 
+
+
+REST resources:
+
+
+
+POST:
+add task (including option for - i want to do this right now?)
+
+complete task
+
+add expense
+
+settle debt
+
+rate a task
+
+"steal" a task
+
+
+
+GET:
+get all info for user
+
+get info for main activity
+	get user's tasks
+	get user's balance
+	get group task history
+	get group transaction history
+	
+
+
