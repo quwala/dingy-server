@@ -3,7 +3,7 @@
 
 
 -----Client-----
-do the Udemy android development course-----------------HADN'T STARTED
+do the Udemy android development course-----------------IN PROGRESS
 	-learn Dagger 2 for dependency injection
 	-learn Room for persistence
 	-learn Retrofit for server communication

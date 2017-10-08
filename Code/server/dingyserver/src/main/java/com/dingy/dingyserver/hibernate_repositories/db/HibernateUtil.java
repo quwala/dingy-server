@@ -7,37 +7,27 @@ import org.hibernate.boot.registry.StandardServiceRegistry;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;
 
-import com.dingy.dingyserver.hibernate_repositories.utility.Util;
 
-/**
- * 建立取得或關閉 Hibernate Session Factory 實例
- * 
- * @see org.hibernate.SessionFactory
- */
 public class HibernateUtil {
 
     private static SessionFactory sessionFactory = buildSessionFactory();
     
-    /**
-     * 應用啟動時建立 Session Factory 並測試與資料庫連線是否成功
-     * 
-     * @return 連線成功返回 true
-     */
+  
 	public static boolean initSessionFactory() {
 		
 		Session session = sessionFactory.openSession();
 		
 		try {
 			session.createSQLQuery("SELECT 1;").list();
-			Util.logInfo("Connection initialization is completed.");
+			System.out.println("Connection initialization is completed.");
 			return true;
 		} catch (RuntimeException ex) {
-			Util.logException(ex);
+			System.out.println(ex);
 		} finally {
 			session.close();
 		}
 		
-		Util.logError("Connection initialization failed.");
+		System.out.println("Connection initialization failed.");
 		return false;		
 	}
     
@@ -55,7 +45,7 @@ public class HibernateUtil {
      */
     public static void closeSessionFactory() {
 		sessionFactory.close();
-		Util.logInfo("Connection and Session Factory is closed.");
+		System.out.println("Connection and Session Factory is closed.");
     }
     
     /**
